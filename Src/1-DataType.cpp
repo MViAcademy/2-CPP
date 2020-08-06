@@ -135,7 +135,7 @@ int main()
     enum color {red,green=5,blue} c = blue;
     cout << c << endl;
 
-    // union
+    // union: all member will share same memory
     union MyUnion 
     {
         char c;
@@ -150,7 +150,9 @@ int main()
     //int iArrany[];
 
     // Vector
-    vector<int> items = {1,2,3};
-    items.push_back(100);
-    cout << items[items.size() - 1] << endl;
+    vector<int> vectorData = {1,2,3};
+    vectorData.push_back(100);
+    cout << vectorData[vectorData.size() - 1] << endl;
+
+    cout << vectorData.at(1)<< endl;
 }
