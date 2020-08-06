@@ -82,6 +82,7 @@ int main()
     // float and doble
     cout << "sizeof(float)=4:" << sizeof(float) << endl;
     cout << "sizeof(double)=8:" << sizeof(double) << endl;
+
     cout << "sizeof(long double)=8:" << sizeof(long double) << endl << endl;
     
     // pointers
